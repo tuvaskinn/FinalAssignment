@@ -72,7 +72,34 @@ h2 {
     color: hsl(0,0%,0%);
 }
 
-p {
+p.front-page {
+    text-align: left;
+    position: relative;
+    height: 90px;
+
+    overflow: scroll;
+    font-size: 15px;
+    color: hsl(0,0%,0%);
+}
+p.front-page2 {
+    text-align: left;
+    position: relative;
+    height: 90px;
+
+    overflow: scroll;
+    font-size: 15px;
+    color: hsl(0,0%,0%);
+}
+p.front-page3 {
+    text-align: left;
+    position: relative;
+    height: 90px;
+
+    overflow: scroll;
+    font-size: 15px;
+    color: hsl(0,0%,0%);
+}
+p.front-page4 {
     text-align: left;
     position: relative;
     height: 90px;
@@ -89,6 +116,10 @@ header.reflection{
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 400;
+
+}
+p.reflection-text{
+    size: 60 px;
 
 }
 /*otherpages*/
