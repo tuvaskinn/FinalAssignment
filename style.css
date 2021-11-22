@@ -19,7 +19,7 @@ body {
 
 /*header*/
 header.homepage{
-    background-image: url("./img/sunset.jpeg");
+    background-image: url("./img/placeholder.jpg");
     background-color: #cccccc;
     height: 750px;
     background-position: center;
@@ -81,8 +81,8 @@ p {
     font-size: 15px;
     color: hsl(0,0%,0%);
 }
-/*boatlife*/
-.boatlife {
+/*otherpages*/
+.otherPages {
     display: flex;
     position: relative;
     text-align: center;
@@ -90,12 +90,12 @@ p {
     overflow: auto;
 }
 
-.bpics {
-    flex: 33.33%;
+.pics {
+    flex: 25%;
     padding: 5px;
 }
 
-.btext1{
+.text{
     position: absolute;
     display: flex;
     bottom: 175px;
@@ -103,90 +103,7 @@ p {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 300;
-    width: 33.3%;
+    width: 25%;
     color: hsl(0,0%,0%);
 }
 
-.btext2{
-    position: absolute;
-    display: flex;
-    bottom: 175px;
-    background-color: hsla(0, 0%, 90%, 70%);
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 300;
-    width: 33.3%;
-    color: hsl(0,0%,0%);
-}
-
-.btext3{
-    position: absolute;
-    display: flex;
-    bottom: 175px;
-    background-color: hsla(0, 0%, 90%, 70%);
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 300;
-    width: 33.3%;
-    color: hsl(0,0%,0%);
-
-}
-/*friends*/
-.friends {
-    display: flex;
-    position: relative;
-    text-align: center;
-    color: hsl(0,0%,100%);
-}
-
-.fpics {
-    flex: 33.33%;
-    padding: 5px;
-}
-
-.ftext1{
-    position: absolute;
-    display: flex;
-    bottom: 175px;
-    background-color: hsla(0, 0%, 90%, 70%);
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 300;
-    width: 33.3%;
-    color: hsl(0,0%,0%);
-}
-
-.ftext2{
-    position: absolute;
-    display: flex;
-    bottom: 175px;
-    background-color: hsla(0, 0%, 90%, 70%);
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 300;
-    width: 33.3%;
-    color: hsl(0,0%,0%);
-}
-
-.ftext3{
-    position: absolute;
-    display: flex;
-    bottom: 175px;
-    background-color: hsla(0, 0%, 90%, 70%);
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 300;
-    width: 33.3%;
-    color: hsl(0,0%,0%);
-
-}
-
-/*reflection*/
-p.reflection{
-    text-align: left;
-    position: relative;
-    height: auto;
-    width: 100%;
-    overflow: scroll;
-    font-size: 25px;
-}
