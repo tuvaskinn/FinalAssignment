@@ -108,20 +108,68 @@ p.front-page4 {
     font-size: 15px;
     color: hsl(0,0%,0%);
 }
+/*Reflection site*/
+ul.reflection {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#reflection, #topicalinfo{
+    float: right;
+}
+
+li a:hover {
+    background-color: hsla(80,100%,90%,20%);
+}
 header.reflection{
     background-image: url("./img/AdobeStock_327948467.jpeg");
     background-color: #cccccc;
-    height: 750px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 400;
 
 }
-p.reflection-text{
-    size: 60 px;
+div.reflection-text{
+    font-size: 21px;
+    line-height: 24px;
+
 
 }
+#reflection-text{
+    font-size: 21px;
+    line-height: 24px;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+}
+#dissability{
+    max-width: 100%;
+    height: auto;
+}
+
 /*otherpages*/
 .otherPages {
     display: flex;
