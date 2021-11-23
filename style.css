@@ -209,7 +209,7 @@ div.topicalinfo-text{
 }
 
 /*otherpages*/
-.otherPages {
+.resources {
     display: flex;
     position: relative;
     text-align: center;
@@ -217,7 +217,7 @@ div.topicalinfo-text{
     overflow: auto;
 }
 
-.pics {
+.pics-resources {
     flex: 25%;
     padding: 5px;
 }
