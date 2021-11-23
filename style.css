@@ -218,7 +218,6 @@ div.topicalinfo-text{
     line-height: 28px;
     padding: 50px;
 
-
 }
 .centered {
     position: absolute;
@@ -246,6 +245,10 @@ div.topicalinfo-text{
     flex: 25%;
     padding: 5px;
 }
-
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+}
 
 
