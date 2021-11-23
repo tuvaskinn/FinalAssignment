@@ -125,7 +125,7 @@ p.front-page4 {
     color: hsl(0,0%,0%);
 }
 /*Topical Information site*/
-ul.reflection {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -136,7 +136,7 @@ li {
     float: left;
 }
 
-a .topical-nav {
+.topical-nav {
     font-size: 25px;
     display: block;
     text-align: center;
@@ -171,6 +171,16 @@ div.topicalinfo-text{
     text-decoration: none;
     letter-spacing: 2px;
 
+}
+.quote {
+    background-color: darkblue;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+blockquote {
+    border-style: groove;
+    border: white;
 }
 #topicalinfo-text {
     font-size: 21px;
