@@ -43,7 +43,7 @@ header.homepage:before{
     position: relative;
     font-size: 80px;
 }
-/*navigation bar*/
+/*navigation bar - front page + reflection + */
 ul {
     list-style-type: none;
     margin: 0;
@@ -136,7 +136,7 @@ li {
     float: left;
 }
 
-li, a .topical-nav {
+a .topical-nav {
     font-size: 25px;
     display: block;
     text-align: center;
@@ -172,7 +172,7 @@ div.topicalinfo-text{
     letter-spacing: 2px;
 
 }
-#topicalinfo-text{
+#topicalinfo-text {
     font-size: 21px;
     line-height: 28px;
     padding: 50px;
@@ -187,7 +187,7 @@ div.topicalinfo-text{
     color: white;
     font-size: 80px;
 }
-#dissability{
+#dissability {
     max-width: 100%;
     height: auto;
 }
