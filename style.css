@@ -124,7 +124,7 @@ p.front-page4 {
     font-size: 15px;
     color: hsl(0,0%,0%);
 }
-/*Reflection site*/
+/*Topical Information site*/
 ul.reflection {
     list-style-type: none;
     margin: 0;
@@ -136,7 +136,7 @@ li {
     float: left;
 }
 
-li b {
+li, a .topical-nav {
     font-size: 25px;
     display: block;
     text-align: center;
@@ -152,7 +152,7 @@ li b {
 li b:hover {
     background-color: hsla(80,100%,90%,20%);
 }
-header.reflection{
+header.topicalinfo{
     background-image: url("./img/AdobeStock_327948467.jpeg");
     background-color: #cccccc;
     height: 700px;
@@ -162,7 +162,7 @@ header.reflection{
     font-weight: 400;
 
 }
-div.reflection-text{
+div.topicalinfo-text{
     font-size: 21px;
     line-height: 28px;
     padding-left: 50px;
@@ -172,7 +172,7 @@ div.reflection-text{
     letter-spacing: 2px;
 
 }
-#reflection-text{
+#topicalinfo-text{
     font-size: 21px;
     line-height: 28px;
     padding: 50px;
