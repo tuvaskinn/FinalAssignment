@@ -221,7 +221,6 @@ div.topicalinfo-text{
     flex: 25%;
     padding: 5px;
 }
-
 .text{
     position: absolute;
     display: flex;
@@ -231,6 +230,10 @@ div.topicalinfo-text{
     text-transform: uppercase;
     font-weight: 300;
     width: 25%;
+    color: hsl(0,0%,0%);
+}
+
+.info{
     color: hsl(0,0%,0%);
 }
 
