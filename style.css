@@ -173,6 +173,10 @@ li {
 #reflection, #topicalinfo{
     float: right;
 }
+.floatRight{
+    max-width: 100%;
+}
+
 
 li b:hover {
     background-color: hsla(80,100%,90%,20%);
