@@ -120,7 +120,7 @@ li {
     float: left;
 }
 
-li a {
+li b {
     font-size: 25px;
     display: block;
     text-align: center;
@@ -133,7 +133,7 @@ li a {
     float: right;
 }
 
-li a:hover {
+li b:hover {
     background-color: hsla(80,100%,90%,20%);
 }
 header.reflection{
@@ -148,13 +148,19 @@ header.reflection{
 }
 div.reflection-text{
     font-size: 21px;
-    line-height: 24px;
-
+    line-height: 28px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 2px;
 
 }
 #reflection-text{
     font-size: 21px;
-    line-height: 24px;
+    line-height: 28px;
+    padding: 50px;
+
 
 }
 .centered {
