@@ -19,13 +19,14 @@ body {
 
 /*header*/
 header.homepage{
-    background-image: url("./img/placeholder.jpg");
+    background-image: url("./img/forside.jpeg");
     background-color: #cccccc;
     height: 750px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 400;
+
 }
 /*navigation bar*/
 ul {
