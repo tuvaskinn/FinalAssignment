@@ -44,7 +44,7 @@ header.homepage:before{
     font-size: 80px;
 }
 /*navigation bar - front page + reflection + */
-ul {
+.homepage ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -150,7 +150,7 @@ p.front-page4 {
     color: hsl(0,0%,0%);
 }
 /*Topical Information site*/
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -254,5 +254,20 @@ footer{
     color: white;
     text-align: center;
 }
+/*reflection*/
+.reflection{
+    max-width: 750px;
+    margin: auto;
+}
 
-
+.reflection p{
+    font-size: 20px;
+}
+.reflection ul, .reflection li {
+    all: revert;
+    font-size: 20px;
+    list-style: revert ;
+}
+mark{
+    background-color: hsl(40, 30%, 80%);
+}
