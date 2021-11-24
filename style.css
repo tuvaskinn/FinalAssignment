@@ -69,7 +69,7 @@ li a {
 }
 
 li a:hover {
-    background-color: hsla(40, 30%, 80%,20%);
+    background-color: hsla(40, 30%, 80%, 20%);
 }
 
 /*headings and text*/
@@ -185,10 +185,7 @@ li {
 }
 .floatRight{
     max-width: 70%;
-    float:rifht;
 }
-
-
 li b:hover {
     background-color: hsla(80,100%,90%,20%);
 }
@@ -202,14 +199,23 @@ header.topicalinfo{
     font-weight: 400;
 
 }
-div.topicalinfo-text{
+.topicalinfo-text{
+    margin: 0 auto;
+    max-width: 1000px;
     font-size: 21px;
     line-height: 28px;
     padding-left: 50px;
     padding-right: 50px;
-    text-align: justify;
+    text-align: center;
     text-decoration: none;
     letter-spacing: 2px;
+}
+.topicalinfo-list{
+    margin-bottom: 10px;
+}
+.pics-resources{
+    flex: 33.33%;
+    padding: 5px;
 }
 
 .flex-container {
@@ -227,12 +233,8 @@ div.topicalinfo-text{
     font-size: 27px;
 
 }
-#topicalinfo-text {
-    font-size: 21px;
-    line-height: 28px;
-    padding: 50px;
 
-}
+
 .centered {
     position: absolute;
     top: 50%;
@@ -259,11 +261,7 @@ div.topicalinfo-text{
     flex: 25%;
     padding: 5px;
 }
-footer{
-    background: black;
-    color: white;
-    text-align: center;
-}
+
 /*reflection*/
 .reflectionBackground{
     background-image: url("./img/books.jpeg");
@@ -287,3 +285,8 @@ footer{
 mark{
     background-color: hsl(40, 30%, 80%);
 }
+footer{
+     background: black;
+     color: white;
+     text-align: center;
+ }
