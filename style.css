@@ -184,7 +184,8 @@ li {
     float: right;
 }
 .floatRight{
-    max-width: 100%;
+    max-width: 70%;
+    float:rifht;
 }
 
 
@@ -209,7 +210,6 @@ div.topicalinfo-text{
     text-align: justify;
     text-decoration: none;
     letter-spacing: 2px;
-
 }
 
 .flex-container {
