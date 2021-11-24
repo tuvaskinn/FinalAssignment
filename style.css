@@ -69,7 +69,7 @@ li a {
 }
 
 li a:hover {
-    background-color: hsla(80,100%,90%,20%);
+    background-color: hsla(40, 30%, 80%,20%);
 }
 
 /*headings and text*/
@@ -81,9 +81,16 @@ h1 {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     font-size: 40px;
+    font-weight: 400;
+    color: hsl(0,0%,0%);
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
     font-weight: 400;
     color: hsl(0,0%,0%);
 }
@@ -124,7 +131,7 @@ p.front-page4 {
     font-size: 15px;
     color: hsl(0,0%,0%);
 }
-/*otherpages*/
+/*homepage*/
 .otherPages {
     display: flex;
     position: relative;
@@ -140,15 +147,18 @@ p.front-page4 {
 
 .text{
     position: absolute;
-    display: flex;
     bottom: 175px;
     background-color: hsla(0, 0%, 90%, 70%);
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     width: 25%;
     color: hsl(0,0%,0%);
 }
+.info{
+    color: hsl(0,0%,0%);
+}
+
 /*Topical Information site*/
 ul{
     list-style-type: none;
@@ -255,6 +265,11 @@ footer{
     text-align: center;
 }
 /*reflection*/
+.reflectionBackground{
+    background-image: url("./img/books.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .reflection{
     max-width: 750px;
     margin: auto;
@@ -265,9 +280,10 @@ footer{
 }
 .reflection ul, .reflection li {
     all: revert;
-    font-size: 20px;
     list-style: revert ;
+    font-size: 20px;
 }
+
 mark{
     background-color: hsl(40, 30%, 80%);
 }
