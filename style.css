@@ -313,9 +313,25 @@ mark{
 }
 
 /*fun page*/
+
 body.Fun-page{
     background-color: #6e9694
-
+}
+#Play{
+    color: white;
+    text-shadow: #4e7571 2px 2px;
+}
+.audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.Fun-text{
+    color: white;
+    text-shadow: #4e7571 2px 2px;
+    text-align: center;
+    font-size: 28px;
 }
 
 #SeaVideo {
@@ -361,7 +377,6 @@ body.Fun-page {
     display: grid;
     grid-template-columns: 1fr;
 }
-
 
 
 .left-side {
@@ -443,7 +458,9 @@ body.Fun-page {
 }
 
 .img-text-wrapper:hover .subtitle {
-    color: lightseagreen;
+    color: white;
+    text-shadow: #4e7571 2px 2px;
+
     font-weight: 600;
 }
 

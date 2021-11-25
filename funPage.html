@@ -25,7 +25,7 @@
     <div>
         <!-- The video -->
         <video autoplay muted loop id="SeaVideo">
-            <source src="/img/Sea.mp4" type="video/mp4">
+            <source id="sea-video" src="/img/Sea.mp4" type="video/mp4">
         </video>
         <div class="text-box">
             <h1>Relaxation zone</h1>
@@ -35,12 +35,14 @@
 <div>
     <h2 id="Play">Press play</h2>
 </div>
-<audio controls class="audio">
-    <source src="/img/MeditationMusic.m4a" type="audio/mpeg">
+<div class="audio">
+<audio controls  id="music-player">
+    <source  src="/img/MeditationMusic.m4a" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
-<div>
-    <p class="Fun-text">Take a minute to breath and relax from grading assignments......</p>
+</div>
+<div class="Fun-text">
+    <p >Take a minute to breath and relax from grading assignments......</p>
 </div>
 <div class="container">
     <div class="nav-wrapper">
