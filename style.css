@@ -17,7 +17,7 @@ body {
     }
 }
 
-/*header*/
+/*header and footer*/
 header.homepage{
     position: relative;
     height: 800px;
@@ -43,6 +43,11 @@ header.homepage:before{
 .mainHeading, #mainHeading {
     position: relative;
     font-size: 80px;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
 }
 /*navigation bar*/
 .homepage ul {
@@ -133,8 +138,6 @@ h3{
     text-align: left;
     position: relative;
     height: 200px;
-
-    overflow: scroll;
     font-size: 15px;
 }
 
@@ -197,6 +200,15 @@ header.topicalinfo{
 .topicalinfo-list{
     margin-bottom: 10px;
 }
+.infoTopical {
+    color: hsl(0, 0%, 0%);
+    text-align: left;
+    position: relative;
+    height: 200px;
+    font-size: 15px;
+    top: 100px;
+}
+
 .pics-resources{
     flex: 33.33%;
     padding: 5px;
@@ -218,12 +230,9 @@ header.topicalinfo{
 
 }
 
-
 .centered {
-    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-size: 80px;
 }
@@ -232,7 +241,6 @@ header.topicalinfo{
     height: auto;
 }
 
-/*otherpages*/
 .resources {
     display: flex;
     position: relative;
@@ -274,6 +282,9 @@ footer{
      color: white;
      text-align: center;
  }
+/
+
+/*fun page*/
 body.Fun-page {
     font-family: "Lato", sans-serif;
     margin: 0px;
