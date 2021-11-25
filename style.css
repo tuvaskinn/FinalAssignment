@@ -160,6 +160,9 @@ p.front-page4 {
 .info{
     color: hsl(0,0%,0%);
 }
+h3 a{
+    text-decoration: none;
+}
 
 /*Topical Information site*/
 ul{
