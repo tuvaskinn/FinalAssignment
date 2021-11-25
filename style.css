@@ -296,7 +296,21 @@ mark{
     font-size: 20px;
 }
 
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
 
+
+.testpic {
+    flex-basis: 40%
+}
+
+.testtext {
+    font-size: 20px;
+    padding-left: 20px;
+}
 
 /*fun page*/
 body.Fun-page {
