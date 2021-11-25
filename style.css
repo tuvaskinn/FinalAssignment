@@ -84,7 +84,7 @@ h1 {
 h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     color: hsl(0,0%,0%);
 }
@@ -145,23 +145,30 @@ p.front-page4 {
     flex: 25%;
     padding: 5px;
 }
+.pictureAndText{
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
 .text{
     position: absolute;
-    bottom: 175px;
+    top: 50%;
+    left:10%;
     background-color: hsla(0, 0%, 90%,70%);
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 400;
-    width: 25%;
+    width: 80%;
     color: hsl(0,0%,0%);
-    text-decoration: none;
+
 }
 .info{
     color: hsl(0,0%,0%);
 }
 h3 a{
     text-decoration: none;
+    color: hsl(0,0%,0%);
 }
 
 /*Topical Information site*/
