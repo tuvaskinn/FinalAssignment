@@ -282,12 +282,12 @@ footer{
      color: white;
      text-align: center;
  }
-/
+
 
 /*fun page*/
 body.Fun-page {
     font-family: "Lato", sans-serif;
-    margin: 0px;
+    margin: 0;
 }
 
 .container {
