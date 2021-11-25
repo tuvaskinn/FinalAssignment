@@ -44,7 +44,7 @@ header.homepage:before{
     position: relative;
     font-size: 80px;
 }
-/*navigation bar - front page + reflection + */
+/*navigation bar*/
 .homepage ul {
     list-style-type: none;
     margin: 0;
@@ -73,7 +73,7 @@ li a:hover {
     background-color: hsla(40, 30%, 80%, 20%);
 }
 
-/*headings and text*/
+/*headings*/
 h1 {
     text-align:center;
     text-transform: uppercase;
@@ -96,42 +96,7 @@ h3{
     color: hsl(0,0%,0%);
 }
 
-p.front-page {
-    text-align: left;
-    position: relative;
-    height: 90px;
 
-    overflow: scroll;
-    font-size: 15px;
-    color: hsl(0,0%,0%);
-}
-p.front-page2 {
-    text-align: left;
-    position: relative;
-    height: 90px;
-
-    overflow: scroll;
-    font-size: 15px;
-    color: hsl(0,0%,0%);
-}
-p.front-page3 {
-    text-align: left;
-    position: relative;
-    height: 90px;
-
-    overflow: scroll;
-    font-size: 15px;
-    color: hsl(0,0%,0%);
-}
-p.front-page4 {
-    text-align: left;
-    position: relative;
-    height: 90px;
-
-    overflow: scroll;
-    font-size: 15px;
-    color: hsl(0,0%,0%);
-}
 /*homepage*/
 .otherPages {
     display: flex;
@@ -165,7 +130,14 @@ p.front-page4 {
 }
 .info{
     color: hsl(0,0%,0%);
+    text-align: left;
+    position: relative;
+    height: 200px;
+
+    overflow: scroll;
+    font-size: 15px;
 }
+
 h3 a{
     text-decoration: none;
     color: hsl(0,0%,0%);
