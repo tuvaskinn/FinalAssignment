@@ -158,7 +158,7 @@ li {
     float: left;
 }
 
-.topical-nav {
+.white-nav {
     font-size: 25px;
     display: block;
     text-align: center;
@@ -313,6 +313,10 @@ mark{
 }
 
 /*fun page*/
+body.Fun-page{
+    background-color: #6e9694
+
+}
 
 #SeaVideo {
     width: 1500px;
