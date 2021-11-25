@@ -37,6 +37,7 @@ header.homepage:before{
 }
 .mainHeading {
     position: relative;
+    text-shadow: 2px 2px white;
 }
 
 .mainHeading, #mainHeading {
@@ -148,12 +149,13 @@ p.front-page4 {
 .text{
     position: absolute;
     bottom: 175px;
-    background-color: hsla(0, 0%, 90%, 70%);
+    background-color: hsla(0, 0%, 90%,70%);
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 400;
     width: 25%;
     color: hsl(0,0%,0%);
+    text-decoration: none;
 }
 .info{
     color: hsl(0,0%,0%);
