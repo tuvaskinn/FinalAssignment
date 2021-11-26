@@ -320,18 +320,35 @@ body.Fun-page{
 #Play{
     color: white;
     text-shadow: #4e7571 2px 2px;
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    padding: 5px;
+    width: 40%;
+    margin: 0 auto;
 }
 .audio{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 .Fun-text{
     color: white;
     text-shadow: #4e7571 2px 2px;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
+    margin: 0 auto;
+    border-bottom: 6px solid white;
+}
+#Fun-text{
+    color: white;
+    text-shadow: #4e7571 2px 2px;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 20px;
 }
 
 #SeaVideo {
@@ -356,7 +373,6 @@ body.Fun-page{
     font-weight: 900;
 }
 
-/* Add some content at the bottom of the video/page */
 .content {
     position: fixed;
     bottom: 0;
@@ -365,9 +381,7 @@ body.Fun-page{
     width: 100%;
     padding: 20px;
 }
-.audio {
 
-}
 body.Fun-page {
     font-family: "Lato", sans-serif;
     margin: 0;
