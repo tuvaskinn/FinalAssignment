@@ -2,6 +2,7 @@
     font-family: 'Mukta', sans-serif;
 
 }
+ /* animation for each site*/
 body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -392,7 +393,6 @@ body.Fun-page {
     grid-template-columns: 1fr;
 }
 
-
 .left-side {
     display: flex;
 }
@@ -431,16 +431,16 @@ body.Fun-page {
     color: black;
 }
 
-.portfolio-items-wrapper {
+.picture-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.portfolio-item-wrapper {
+.picture-item-wrapper {
     position: relative;
 }
 
-.portfolio-img-background {
+.picture-img-background {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -474,11 +474,10 @@ body.Fun-page {
 .img-text-wrapper:hover .subtitle {
     color: white;
     text-shadow: #4e7571 2px 2px;
-
     font-weight: 600;
 }
 
-.logo-wrapper img {
+.text-wrapper img {
     width: 50%;
     margin-bottom: 20px;
 }
@@ -488,14 +487,10 @@ body.Fun-page {
     grid-template-columns: 1fr 1fr;
 }
 
-.profile-image-wrapper img {
+.picture-image-wrapper img {
     width: 100%;
 }
 
-.profile-content-wrapper {
+.picture-content-wrapper {
     padding: 30px;
-}
-
-.profile-content-wrapper h1 {
-    color: lightseagreen;
 }
