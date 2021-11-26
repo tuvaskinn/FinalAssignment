@@ -280,7 +280,8 @@ body.Fun-page{
 }
 
 #SeaVideo {
-    width: 1435px;
+    width: 100%;
+    max-width: 1435px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,7 +291,7 @@ body.Fun-page{
 }
 #text-box{
     position: absolute;
-    top: 50%;
+    top: 300px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
