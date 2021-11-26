@@ -316,7 +316,7 @@ mark{
 /*fun page*/
 
 body.Fun-page{
-    background-color: #6e9694
+    background-color: #6e9694;
 }
 #Play{
     color: white;
@@ -326,6 +326,7 @@ body.Fun-page{
     padding: 5px;
     width: 40%;
     margin: 0 auto;
+
 }
 .audio{
     display: flex;
@@ -353,18 +354,19 @@ body.Fun-page{
 }
 
 #SeaVideo {
-    width: 1500px;
+    width: 1435px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 400;
     margin: 0 auto;
+    z-index:-1;
 }
-.text-box{
+#text-box{
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
     color: white;
     display: flex;
@@ -373,14 +375,12 @@ body.Fun-page{
     font-size: 100px;
     font-weight: 900;
 }
-
-.content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
+#Mantra-text{
+    color: white;
+    text-shadow: #4e7571 2px 2px;
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
 }
 
 body.Fun-page {
