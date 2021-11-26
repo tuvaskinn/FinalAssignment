@@ -148,16 +148,6 @@ h3 a{
 }
 
 /*Topical Information site*/
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
 
 .white-nav {
     font-size: 25px;
@@ -168,16 +158,11 @@ li {
     color: white;
 }
 
-#reflection, #topicalinfo{
-    float: right;
+
+.floatRight {
+    max-width: 100%;
 }
-.floatRight{
-    max-width: 70%;
-}
-li b:hover {
-    background-color: hsla(80,100%,90%,20%);
-}
-header.topicalinfo{
+header.topicalinfo {
     background-image: url("./img/AdobeStock_327948467.jpeg");
     background-color: #cccccc;
     height: 700px;
@@ -185,22 +170,8 @@ header.topicalinfo{
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 400;
+}
 
-}
-.topicalinfo-text{
-    margin: 0 auto;
-    max-width: 1000px;
-    font-size: 21px;
-    line-height: 28px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 2px;
-}
-.topicalinfo-list{
-    margin-bottom: 10px;
-}
 .infoTopical {
     color: hsl(0, 0%, 0%);
     text-align: left;
